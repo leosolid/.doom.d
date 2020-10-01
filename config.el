@@ -53,3 +53,5 @@
 
 (setq display-line-numbers-type 'relative)
 (setq evil-snipe-scope 'buffer)
+
+(setq which-key-idle-delay 0.01)
