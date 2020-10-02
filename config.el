@@ -51,8 +51,9 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq display-line-numbers-type 'relative)
-(setq evil-snipe-scope 'buffer)
-
-(setq which-key-idle-delay 0.01)
-(setq which-key-side-window-location 'bottom)
+(setq
+ display-line-numbers-type 'relative
+ evil-snipe-scope 'buffer
+ which-key-idle-delay 0.01
+ which-key-side-window-location 'bottom
+ projectile-project-search-path '("~/m/dev/co" "~/m/dev/job" "~/m/dev/sw"))
