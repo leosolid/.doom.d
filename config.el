@@ -56,4 +56,5 @@
  evil-snipe-scope 'buffer
  which-key-idle-delay 0.01
  which-key-side-window-location 'bottom
- projectile-project-search-path '("~/m/dev/co" "~/m/dev/job" "~/m/dev/sw"))
+ projectile-project-search-path '("~/m/dev/co" "~/m/dev/job" "~/m/dev/sw")
+ +word-wrap-extra-indent 'double)
